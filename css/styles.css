@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ /*Paleta de colores*/
+:root {
+/*el negro está en el bootstrap*/
+	--main-color: #FFBE00; /*60*/
+	/*white 20%*/ 
+	/*black 10% */
+	--terciary-color: #F6F6F6; /*10*/
+}
