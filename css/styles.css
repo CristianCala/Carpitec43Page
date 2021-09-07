@@ -14,3 +14,15 @@
 	/*black 10% */
 	--terciary-color: #F6F6F6; /*10*/
 }
+
+body{
+	font-family: 'Titillium Web'  !important;
+}
+
+.text-color-main{
+	color: var(--main-color);
+}
+
+.bg-color-main{
+	background-color: var(--main-color);
+}
