@@ -26,3 +26,44 @@ body{
 .bg-color-main{
 	background-color: var(--main-color);
 }
+
+.border-white{
+	border-right: 6px solid white;
+	border-bottom: 6px solid white;
+	border-top: 6px solid white;
+	width: 95%;
+	height:95%;
+}
+
+.text-hero{
+	padding-top: 22rem;
+}
+
+.relative{
+	position: relative;
+}
+
+.image-hero{
+	position: absolute;
+	right: 0;
+	top: 12vw;
+	width: 90%;
+	height: auto;
+}
+
+@media screen and (max-width: 575px){
+
+	.border-white{
+		border-top: 0;
+		border-bottom: 0;
+		border-left: 6px solid white;
+	}
+	.text-hero{
+		padding-top: 8rem;
+	}
+	.image-hero{
+		top: 3rem;
+		width: 60%;
+	}
+
+}
