@@ -49,6 +49,11 @@ body{
 	background-color: var(--main-color);
 }
 
+.bg-color-main-opacity{
+	background-color: var(--main-color);
+	opacity: .7;
+}
+
 .border-white{
 	border-right: 6px solid white;
 	border-bottom: 6px solid white;
@@ -103,4 +108,15 @@ body{
 		display: none !important;
 	}
 
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+#wheel {
+  animation: spin 4s infinite alternate;
+  transform-box: fill-box;
+  transform-origin: center;
 }
