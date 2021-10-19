@@ -1,11 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
  /*Paleta de colores*/
 :root {
 /*el negro está en el bootstrap*/
@@ -50,8 +42,7 @@ body{
 }
 
 .bg-color-main-opacity{
-	background-color: var(--main-color);
-	opacity: .7;
+	background-color: #FFCB33;
 }
 
 .border-white{
@@ -77,6 +68,24 @@ body{
 	top: 22%;
 	width: 20vw;
 	height: auto;
+}
+
+.subline{
+	position: relative;
+}
+.subline:after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-15%;
+  right:5px;
+  background: white;
+  height:4px;
+  width: 65%;
+}
+
+.line-h{
+	line-height: 10px !important;
 }
 
 @media screen and (max-width: 575px){
@@ -122,3 +131,60 @@ body{
   transform-box: fill-box;
   transform-origin: center;
 }
+
+blockquote {
+	position: relative; 
+	max-width: 400px; 
+}
+
+blockquote p {
+    font-size:21px;
+}
+
+blockquote p:before { 
+    content: "\201C";
+    font-size:90px;
+    color:dark;
+    position: absolute; 
+    top: -0.1em;
+    left: -0.5em; 
+} 
+blockquote p:after { 
+    content: "\201D";
+    font-size:90px;
+    color:dark;
+    position: absolute; 
+    bottom: -0.6em;
+    right: 0; 
+}
+
+.btn-main{
+	border:  3px solid var(--main-color);
+	transition:  .3 ease all;
+	position: relative;
+	overflow:  hidden;
+}
+
+.btn-main.slide::after {
+	content: "";
+	width: 160%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 80px solid var(--main-color);
+	border-right: 80px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+.btn-main.slide:hover::after {
+	left: 0;
+}
+
+.btn-main span {
+	position: relative;
+	z-index: 2;
+	transition: .3 ease all;
+}
+
+Hagamosle click a nuestras vidas y nuestro corazón y llevemos a todos 
