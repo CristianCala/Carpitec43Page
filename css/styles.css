@@ -187,4 +187,8 @@ blockquote p:after {
 	transition: .3 ease all;
 }
 
+.bg-color-light{
+	background-color: var(--terciary-color);
+}
+
 Hagamosle click a nuestras vidas y nuestro corazón y llevemos a todos 
