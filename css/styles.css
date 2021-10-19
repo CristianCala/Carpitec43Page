@@ -85,6 +85,8 @@ body{
 		border-top: none;
 		border-bottom: none;
 		border-left: 6px solid white;
+		width: 95%;
+		height: 85%;
 	}
 	.text-hero{
 		margin-top: 8rem;
