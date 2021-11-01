@@ -28,3 +28,14 @@ var slowAnimation = anime({
   easing: 'easeInOutQuad',
   autoplay: true
 });
+
+var rotar = anime ({
+  targets: '.rotate-2',
+  origin: 'center',
+  rotate: 2,
+  direction: 'alternate',
+  loop: true,
+  elasticity: 2000,
+  easing: 'easeInOutQuad',
+
+});

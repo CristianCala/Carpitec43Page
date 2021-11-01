@@ -191,4 +191,17 @@ blockquote p:after {
 	background-color: var(--terciary-color);
 }
 
-Hagamosle click a nuestras vidas y nuestro corazón y llevemos a todos 
+.rotate {
+	animation: rotation 2s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(10deg);
+	}
+}
