@@ -34,8 +34,21 @@ var rotar = anime ({
   origin: 'center',
   rotate: 2,
   direction: 'alternate',
+  duration: 2000,
   loop: true,
   elasticity: 2000,
-  easing: 'easeInOutQuad',
+  easing: 'easeInOutQuad'
+
+});
+
+var rotarFort = anime ({
+  targets: '.rotateFort',
+  origin: 'center',
+  rotate: 5,
+  direction: 'alternate',
+  duration: 2000,
+  loop: true,
+  elasticity: 2000,
+  easing: 'easeInOutQuad'
 
 });
