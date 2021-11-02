@@ -58,17 +58,17 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">
-					<img src="img/logoBlanco.svg" width="60" height="60">
+					<img src="img/logoBlanco.svg" alt="logo de Carpitec43" width="60" height="60">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fas fa-caret-down"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link fw-bold h5" aria-current="page" href="#">Conócenos</a>
+						<a class="nav-link fw-bold h5" href="#">Conócenos</a>
 						<a class="nav-link fw-bold h5" href="#">Diseños</a>
 						<a class="nav-link fw-bold h5" href="#">Contáctanos</a>
-						<a class="nav-link fw-bold h5" href="#" tabindex="-1" aria-disabled="true">Materiales</a>
+						<a class="nav-link fw-bold h5" href="#">Materiales</a>
 					</div>
 				</div>
 			</div>
@@ -83,9 +83,9 @@
 							<div class="d-flex my-3">
 								<svg width="60" height="60" enable-background="new 0 0 64.3 64.3" version="1.1" viewBox="0 0 64.3 64.3" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 									<defs>
-									<rect id="b" x="2.1" y="3.1" width="60" height="58"/>
+									<rect id="c" x="2.1" y="3.1" width="60" height="58"/>
 									</defs>
-									<clipPath id="a">
+									<clipPath id="b">
 									<use xlink:href="#b"/>
 									</clipPath>
 									<g class="st0">
@@ -149,7 +149,7 @@
 			<!-- Sobre nosotros -->
 			<section style="background-color: white;">
 				<div class="p-5">
-					<h1><strong class="fw-bold text-color-main">PROFESIONALES</strong> PARA TI</h1>
+					<h2><strong class="fw-bold text-color-main h1">PROFESIONALES</strong> PARA TI</h2>
 					<h2 class="line-h">SOBRE NOSOTROS</h2>
 					<div class="mx-5">
 						<p class="fst-italic mt-5 h5" style="text-indent: 2rem;">Somos Carpitec43 una empresa líder en carpinteria general. Fundada en 1968
@@ -166,16 +166,16 @@
 			<!-- Diseños llamada a la acción -->
 			<section class="bg-color-light">
 				<div class="container text-center">
-					<h2 class="fw-light line-h pt-5 h3">SIENTETE INSPIRADO</h2>
-					<h1 class="fw-bold line-h display-5">CON NUESTROS DISEÑOS</h1>
-					<h2 class="fw-bold line-h">PERSONALIZADOS POR TI MISMO</h2>
+					<h3 class="fw-light line-h pt-5 h3">SIENTETE INSPIRADO</h3>
+					<h2 class="fw-bold line-h display-5">CON NUESTROS DISEÑOS</h2>
+					<h3 class="fw-bold line-h h2">PERSONALIZADOS POR TI MISMO</h3>
 					<a href="#down"><i class="fas fa-caret-down mt-5 fa-3x text-color-main fa-beat"></i></a>
 				</div>
 			</section>
 			<!-- Diseños -->
 			<section class="bg-color-main pt-4">
 				<div class="p-5 text-white">
-					<h1 class="fw-bold">NUESTRO TRABAJO</h1>
+					<h2 class="fw-bold h1">NUESTRO TRABAJO</h2>
 					<h2 class="fw-light line-h">GALERÍA DE DISEÑOS</h2>
 				</div>
 				<div class="container my-5">
@@ -186,28 +186,25 @@
 						data-mdb-ride="carousel"
 						>
 						<!-- Controls -->
-						<div class="d-flex justify-content-center mb-4">
+<!-- 						<div class="d-flex justify-content-center mb-4">
 							<button
-							class="carousel-control-prev position-relative"
-							type="button"
-							data-mdb-target="#carouselBasicExample"
-							data-mdb-slide="prev"
-							>
-							<span class="fas fa-caret-left fa-2x text-dark" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
+								class="carousel-control-prev position-relative" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+								<span class="fas fa-caret-left fa-2x text-dark" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
 							</button>
 							<button
-							class="carousel-control-next position-relative"
-							type="button"
-							data-mdb-target="#carouselBasicExample"
-							data-mdb-slide="next"
-							>
-							<span class="fas fa-caret-right fa-2x text-dark" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
+							class="carousel-control-next position-relative" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+								<span class="fas fa-caret-right fa-2x text-dark" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
 							</button>
-						</div>
+						</div> -->
 						<!-- Inner -->
-						<div class="carousel-inner py-4">
+						<div class="carousel-inner py-4 d-flex">
+							<button
+								class="carousel-control-prev float-left" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+								<span class="fas fa-caret-left fa-2x text-white" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
 							<!-- Single item -->
 							<div class="carousel-item active">
 								<div class="container">
@@ -264,13 +261,18 @@
 									</div>
 								</div>
 							</div>
+							<button
+							class="carousel-control-next float-right" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+								<span class="fas fa-caret-right fa-2x text-white" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
 						</div>
 						<!-- Inner -->
 					</div>
 					<!-- Carousel wrapper -->
 				</div>
 			</section>
-			<!-- Contactanos llamada ala acción -->
+			<!-- Contactanos llamada a la acción -->
 			<section>
 				
 			</section>

@@ -85,7 +85,7 @@ body{
 }
 
 .line-h{
-	line-height: 10px !important;
+	line-height: 40px !important;
 }
 
 @media screen and (max-width: 575px){
