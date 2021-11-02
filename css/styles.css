@@ -205,3 +205,14 @@ blockquote p:after {
 		transform: rotate(10deg);
 	}
 }
+
+
+.form-control{
+	box-shadow: none !important;
+	border: none;
+	background-color: #F1F1F1;
+}
+
+.form-control:focus{
+	border:  2px solid var(--main-color);
+}
