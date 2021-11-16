@@ -217,3 +217,7 @@ blockquote p:after {
 	border:  2px solid var(--main-color);
 	background-color: #DEDEDE;
 }
+
+.form-radius{
+	border-radius: 4px 32px 4px 32px;
+}
