@@ -1,7 +1,7 @@
  /*Paleta de colores*/
 :root {
 /*el negro está en el bootstrap*/
-	--main-color: #FFBE00; /*60*/
+	--main-color: #F5A63F; /*#FFBE00 /*60*/
 	/*white 20%*/ 
 	/*black 10% */
 	--terciary-color: #F6F6F6; /*10*/
@@ -42,7 +42,7 @@ body{
 }
 
 .bg-color-main-opacity{
-	background-color: #FFCB33;
+	background-color: #FFBE00;
 }
 
 .border-white{
